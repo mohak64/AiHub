@@ -12,7 +12,7 @@ function Footer() {
           className="object-contain"
         />
         <p className="text-base font-bold text-white">
-          @2024 "AI Model Hub: Explore, Engage, Evolve"
+          @2024 &quot;AI Model Hub: Explore, Engage, Evolve&quot;
         </p>
       </div>
       <div className="flex items-center gap-6 hidden sm:flex">
