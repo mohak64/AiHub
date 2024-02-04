@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <header className="bg-hero bg-center bg-cover bg-no-repeat px-16 pt-16 px-8 flex justify-center lg:items-center max-lg:flex-col w-full sm:gap-16 gap-0">
+    <header className="bg-hero bg-center bg-cover bg-no-repeat  pt-16 px-16 sm: flex justify-center lg:items-center max-lg:flex-col w-full sm:gap-16 gap-0">
       <div className="flex-1 flex flex-col gap-10">
         <Image
           src="/robotHD.png"

@@ -8,6 +8,6 @@ export async function fetchLLM(page: number) {
   );
 
   const data = await response.json();
-  console.log(data);
+  // console.log(data);
   return data;
 }
