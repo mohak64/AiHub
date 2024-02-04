@@ -1,3 +1,5 @@
+// "use client";
+
 import Image from "next/image";
 
 export interface LlmProp {
@@ -16,11 +18,12 @@ interface Prop {
 }
 
 function LlmCard({ llm }: Prop) {
+  console.log(llm);
   return (
     <div className="max-w-sm rounded relative w-full">
       <div className="relative w-full h-[37vh]">
         <Image
-          src={llm.image.original}
+          src="/logoAIman.png"
           alt={llm.name}
           fill
           className="rounded-xl"
