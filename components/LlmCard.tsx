@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 export interface LlmProp {
-  id: string;
+  _id: string;
   name: string;
   image: {
     original: string;

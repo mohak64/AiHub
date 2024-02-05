@@ -34,7 +34,6 @@ function CreatePage() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     await createLLM(newLLM);
-    console.log("Form submitted:", newLLM);
     setNewLLM({
       name: "",
       provider: "",

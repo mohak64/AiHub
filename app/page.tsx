@@ -2,6 +2,7 @@ import { fetchLLM } from "./action";
 
 import LlmCard, { LlmProp } from "@/components/LlmCard";
 import LoadMore from "../components/LoadMore";
+import Link from "next/link";
 // import { data } from "./_data";
 
 async function Home() {
@@ -15,7 +16,11 @@ async function Home() {
 
       <section className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
         {data.map((item: LlmProp, index: number) => (
-          <LlmCard key={item.id} llm={item} index={index} />
+          <Link key={item._id} href={`/models/${item._id}`} passHref>
+            <a>
+              <LlmCard llm={item} index={index} />
+            </a>
+          </Link>
         ))}
       </section>
       <LoadMore />
