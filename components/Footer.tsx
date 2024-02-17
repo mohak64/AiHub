@@ -16,20 +16,32 @@ function Footer() {
         </p>
       </div>
       <div className="flex items-center gap-6 hidden sm:flex">
-        <Image
-          src="./instagram.svg"
-          alt="logo"
-          width={19}
-          height={19}
-          className="object-contain"
-        />
-        <Image
-          src="./twitter.svg"
-          alt="logo"
-          width={19}
-          height={19}
-          className="object-contain"
-        />
+        <a
+          href="https://www.linkedin.com/in/mohakbansal6401/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="./li.svg"
+            alt="LinkedIn"
+            width={19}
+            height={19}
+            className="object-contain cursor-pointer"
+          />
+        </a>
+        <a
+          href="https://github.com/mohak64/AiHub"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="./gh.svg"
+            alt="GitHub"
+            width={19}
+            height={19}
+            className="object-contain cursor-pointer"
+          />
+        </a>
       </div>
     </footer>
   );
