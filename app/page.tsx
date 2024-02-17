@@ -10,7 +10,7 @@ async function Home() {
   const data = await fetchLLM(1);
 
   return (
-    <main className="sm:p-16 py-16 px-8 flex flex-col gap-10">
+    <main className="sm:p-16 py-16 px-8 flex flex-col gap-10 ">
       <div className=" sm:block md:flex  items-center justify-between ">
         <h2 className="text-3xl text-white font-bold">
           Explore AI models and LLMs
@@ -27,6 +27,7 @@ async function Home() {
           <LlmCard key={item._id} llm={item} index={index} />
         ))}
       </section>
+
       <LoadMore initialPage={2} />
     </main>
   );
