@@ -54,7 +54,8 @@
 import { useEffect, useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 
-export function ModelPage() {
+export default function ModelPage() {
+  // Change export to default
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [Id, SetId] = useState<string | null>(null);
@@ -82,5 +83,3 @@ export function ModelPage() {
     </main>
   );
 }
-
-export default ModelPage;
