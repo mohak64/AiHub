@@ -27,7 +27,7 @@ async function Home() {
           <LlmCard key={item._id} llm={item} index={index} />
         ))}
       </section>
-      <LoadMore />
+      <LoadMore initialPage={2} />
     </main>
   );
 }

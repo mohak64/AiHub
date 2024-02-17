@@ -1,10 +1,8 @@
 "use server";
 
-const MAX_LIMIT = 8;
-
 export async function fetchLLM(page: number) {
   const response = await fetch(
-    `https://backendllm.onrender.com/api/llms?page=${page}&limit=${MAX_LIMIT}`
+    `https://backendllm.onrender.com/api/llms?page=${page}`
   );
 
   const data = await response.json();
