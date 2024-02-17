@@ -43,6 +43,7 @@ function CreatePage() {
       useCases: [],
       tryItLink: "",
     });
+    alert("LLM created successfully");
   };
 
   return (
