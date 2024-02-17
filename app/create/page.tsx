@@ -44,7 +44,7 @@ function CreatePage() {
       useCases: [],
       tryItLink: "",
     });
-    alert("LLM created successfully");
+    alert("LLM will be added after admin review");
   };
 
   return (
