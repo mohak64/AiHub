@@ -16,7 +16,12 @@ async function Home() {
 
       <section className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
         {data.map((item: LlmProp, index: number) => (
-          <Link key={item._id} href={`/models/${item._id}`} passHref>
+          <Link
+            key={item._id}
+            href={`/models/${item._id}`}
+            passHref
+            legacyBehavior
+          >
             <a>
               <LlmCard llm={item} index={index} />
             </a>
