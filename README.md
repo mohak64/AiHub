@@ -25,13 +25,15 @@ AiHub is built using the latest technologies, including Next.js 14.0.03 for serv
 
 
 ## Performance
--Desktop
+- **Desktop**
 ![Performance](https://github.com/mohak64/AiHub/assets/117752286/03f54cad-2631-4e94-bd90-3eba681687a7)
 
+- **Mobile**
+![mobile](https://github.com/mohak64/PuzzleArena/assets/117752286/d26b6033-8d79-49a1-ab79-a6f06ce1e289)
+
+- **Overall**
 ![Performance](https://github.com/mohak64/AiHub/assets/117752286/5bf93813-233f-4483-8164-d3d8e7975a19)
 
--Mobile
-![mobile](https://github.com/mohak64/PuzzleArena/assets/117752286/d26b6033-8d79-49a1-ab79-a6f06ce1e289)
 
 
 - **Page Load Time**: The page load time of AiHub is measured using Vercel Speed Insights and PageSpeed Insights. It ensures that users can access the platform swiftly without experiencing delays.
