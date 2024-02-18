@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <main className="max-w-7xl mx-auto bg-[#0F1117]">
           <Hero />
           {children}
+          <SpeedInsights />
           <Footer />
         </main>
       </body>

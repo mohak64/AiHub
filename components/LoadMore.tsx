@@ -128,7 +128,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface LoadMoreProps {
-  initialPage: number; // Pass initial page as a prop
+  initialPage: number;
 }
 
 function LoadMore({ initialPage }: LoadMoreProps) {
@@ -136,7 +136,7 @@ function LoadMore({ initialPage }: LoadMoreProps) {
 
   const [data, setData] = useState<LlmProp[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const [page, setPage] = useState(initialPage); // Initialize page with the initialPage prop
+  const [page, setPage] = useState(initialPage);
 
   useEffect(() => {
     if (inView) {
@@ -145,9 +145,9 @@ function LoadMore({ initialPage }: LoadMoreProps) {
 
       const timeoutId = setTimeout(() => {
         fetchLLM(page).then((res) => {
-          if (!res) return; // Stop if response is null
+          if (!res) return;
           setData([...data, ...res]);
-          setPage(page + 1); // Increment page value
+          setPage(page + 1);
         });
 
         setIsLoading(false);
@@ -155,7 +155,7 @@ function LoadMore({ initialPage }: LoadMoreProps) {
 
       return () => clearTimeout(timeoutId);
     }
-  }, [inView, data, isLoading, page]); // Include page in dependencies
+  }, [inView, data, isLoading]);
 
   return (
     <>

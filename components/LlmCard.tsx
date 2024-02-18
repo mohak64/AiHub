@@ -22,7 +22,6 @@ interface Prop {
 }
 
 function LlmCard({ llm }: Prop) {
-  console.log(llm);
   return (
     // <Link key={llm._id} href={`/models/${llm._id}`} passHref legacyBehavior>
     //   <a>
