@@ -25,10 +25,11 @@ AiHub is built using the latest technologies, including Next.js 14.0.03 for serv
 
 
 ## Performance
+![Performance](https://github.com/mohak64/AiHub/assets/117752286/03f54cad-2631-4e94-bd90-3eba681687a7)
 
 ![Performance](https://github.com/mohak64/AiHub/assets/117752286/5bf93813-233f-4483-8164-d3d8e7975a19)
 
-- **Page Load Time**: The page load time of AiHub is measured using PageSpeed Insights. It ensures that users can access the platform swiftly without experiencing delays.
+- **Page Load Time**: The page load time of AiHub is measured using Vercel Speed Insights and PageSpeed Insights. It ensures that users can access the platform swiftly without experiencing delays.
 - **Optimizations**: Various optimizations have been implemented to enhance performance.
 
 ## Run Locally
