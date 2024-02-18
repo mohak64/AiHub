@@ -26,10 +26,10 @@ AiHub is built using the latest technologies, including Next.js 14.0.03 for serv
 
 ## Performance
 - **Desktop**
-![Performance](https://github.com/mohak64/AiHub/assets/117752286/03f54cad-2631-4e94-bd90-3eba681687a7)
+![desk met](https://github.com/mohak64/CP/assets/117752286/b0124fe7-b79d-46d9-9049-a5490b88bcef)
 
 - **Mobile**
-![mobile](https://github.com/mohak64/PuzzleArena/assets/117752286/d26b6033-8d79-49a1-ab79-a6f06ce1e289)
+![mob met](https://github.com/mohak64/CP/assets/117752286/73323b76-4fdb-4664-adb7-632cf3c8bce3)
 
 - **Overall**
 ![Performance](https://github.com/mohak64/AiHub/assets/117752286/5bf93813-233f-4483-8164-d3d8e7975a19)
